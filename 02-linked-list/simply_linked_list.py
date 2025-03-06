@@ -49,17 +49,18 @@ class ListNode:
         return str(self.value)
     
 
-data = LinkedList()
-data.add(35)
-data.add(28)
-data.add(49)
-data.display()
+if __name__ == "__main__":
+    data = LinkedList()
+    data.add(35)
+    data.add(28)
+    data.add(49)
+    data.display()
 
-print(data.contains(49))
-print(data.contains(56))
+    print(data.contains(49))
+    print(data.contains(56))
 
-data.remove(55)
-data.remove(35)
-data.display()
-data.remove(49)
-data.display()
+    data.remove(55)
+    data.remove(35)
+    data.display()
+    data.remove(49)
+    data.display()
